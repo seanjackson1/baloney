@@ -20,7 +20,7 @@ public class Baloney {
     // }
 
     Strategy[] strategies = {
-        new SeanJackson(), new RemoteStrategy(), new RemoteStrategy(), new SeanJackson() };
+        new SeanJackson(), new SeanJackson(), new SeanJackson(), new SeanJackson() };
 
     int[] seats = new int[4];
     for (int i = 1; i < 100; i++) {
